@@ -26,7 +26,7 @@ export default {
 </script>
 
 <style scoped>
-/* Prevent horizontal scroll */
+
 html, body {
   overflow-x: hidden;
   margin: 0;
@@ -45,7 +45,7 @@ html, body {
 .content {
   display: flex;
   flex: 1;
-  margin-top: 60px; /* ✅ Space for Header */
+  margin-top: 60px; 
   width: 100%;
 }
 

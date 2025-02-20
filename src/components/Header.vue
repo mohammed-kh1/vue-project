@@ -1,12 +1,10 @@
 <template>
     <header class="header">
-      <!-- Left Side: Logo & Title -->
       <div class="header-left">
         <img src="/image1.png" alt="HiTeam Logo" class="logo" />
         <span class="app-title">Hi TEAM</span>
       </div>
   
-      <!-- Right Side: Icons & User Profile -->
       <div class="header-right">
         <button class="icon-btn">
           <i class="bi bi-bell"></i>
@@ -31,7 +29,6 @@
   </script>
   
   <style scoped>
-  /* Header Layout */
   .header {
     display: flex;
     align-items: center;
@@ -39,7 +36,7 @@
     background-color: white;
     padding: 12px 20px;
     border-bottom: 1px solid #ddd;
-    height: 60px; /* Consistent with sample */
+    height: 60px; 
     width: 100%;
     position: fixed;
     top: 0;
@@ -48,14 +45,13 @@
     z-index: 1000;
   }
   
-  /* Left Side */
   .header-left {
     display: flex;
     align-items: center;
   }
   
   .logo {
-    height: 40px; /* Adjust based on sample */
+    height: 40px; 
     margin-right: 10px;
   }
   
@@ -65,7 +61,6 @@
     color: #333;
   }
   
-  /* Right Side */
   .header-right {
     display: flex;
     align-items: center;

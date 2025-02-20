@@ -97,17 +97,15 @@ export default {
   border-color: #6c757d !important;
 }
 
-/* Style the inline select for Permissions */
 .form-select {
   background-color: #fff;
   border-color: #ced4da;
   border-radius: 0.25rem;
-  height: 28px; /* Match button height */
+  height: 28px; 
   font-size: 0.875rem;
   color: #6c757d;
 }
 
-/* Ensure the select aligns properly with the button */
 .btn-outline-secondary .form-select {
   margin-left: 8px;
   vertical-align: middle;
