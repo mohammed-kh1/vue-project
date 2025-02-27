@@ -3,11 +3,14 @@
     <Header />
     <div class="content">
       <Sidebar />
-      <div class="chat-section">
-        <ChatList />
-        <ChatConversation />
+      <div class="breadcrumb">
+        <breadcrumb/>
+        <ChatList/>
+        <div class="chat-section">
+          <ChatConversation />
+          <MediaFiles />
+        </div>
       </div>
-      <MediaFiles />
     </div>
   </div>
 </template>
@@ -15,12 +18,13 @@
 <script>
 import Header from "@/components/Header.vue";
 import Sidebar from "@/components/Sidebar.vue";
+import breadcrumb from "@/components/breadcrumb.vue";
 import ChatList from "@/components/ChatList.vue";
 import ChatConversation from "@/components/ChatConversation.vue";
 import MediaFiles from "@/components/MediaFiles.vue";
 
 export default {
-  components: { Header, Sidebar, ChatList, ChatConversation, MediaFiles },
+  components: { Header, Sidebar, breadcrumb, ChatList, ChatConversation, MediaFiles },
 };
 
 </script>
@@ -39,21 +43,22 @@ html, body {
   flex-direction: column;
   width: 100vw;
   height: 100vh;
-  background-color: #f8f9fa;
+  background-color: white;
 }
 
 .content {
+  background-color: rgb(234, 239, 240);
   display: flex;
   flex: 1;
-  margin-top: 60px; 
   width: 100%;
+  padding: 20px;
+  margin-top: -20px;
 }
 
 .chat-section {
   display: flex;
   flex: 1;
-  background-color: white;
-  border-left: 1px solid #e9ecef;
-  border-right: 1px solid #e9ecef;
-}
+  background-color: rgb(234, 239, 240);
+  margin-top: 20px;
+  }
 </style>
