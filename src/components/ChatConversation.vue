@@ -1,7 +1,10 @@
 <template>
   <div class="chatconversation col-12 col-md-8 p-3" style="background-color: white; position: relative;">
-    <div class="d-flex justify-content-between align-items-center mb-3 border-bottom" style="padding-bottom: 10px;">
-      <h2 class="text-lg fw-bold mb-0" style="color: #333;"></h2>
+    <div class="d-flex justify-content-between align-items-center mb-3 border-bottom">
+      <div class="d-flex align-items-center">
+        <img src="/person2.png" alt="User Avatar" class="rounded-circle me-2" style="width: 40px; height: 40px;" />
+          <p class="text-muted">Away</p>
+      </div>
       <div>
         <button class="btn btn-sm me-2" @click="showBlock = true">
           <img src="/slash.png" alt="slash icon" />

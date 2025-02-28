@@ -12,6 +12,11 @@
     <div class="mb-4">
       <input type="text" placeholder="Search contacts" class="form-control border" style="border-color: #ced4da;" />
     </div>
+    <div class="mb-4 d-flex">
+      <p class="text-muted"> Recent Chats </p>
+      <button class="btn dropdown-toggle text-muted" type="button" id="userDropdown" data-bs-toggle="dropdown" style="padding: 1px 8px; font-size: 0.9rem; height: 35px;">
+      </button>
+    </div>
 
     <div class="space-y-4">
       <div v-for="chat in chats.filter(chat => chat.id !== 1)" :key="chat.id" class="d-flex align-items-center mb-3">
