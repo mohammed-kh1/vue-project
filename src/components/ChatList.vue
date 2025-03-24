@@ -16,6 +16,11 @@
       <p class="text-muted"> Recent Chats </p>
       <button class="btn dropdown-toggle text-muted" type="button" id="userDropdown" data-bs-toggle="dropdown" style="padding: 1px 8px; font-size: 0.9rem; height: 35px;">
       </button>
+      <ul class="dropdown-menu" aria-labelledby="chatFilterDropdown">
+          <li><a class="dropdown-item" href="#" >Recent Chats</a></li>
+          <li><a class="dropdown-item" href="#" >Previous Chats</a></li>
+          <li><a class="dropdown-item" href="#" >All Chats</a></li>
+        </ul>
     </div>
 
     <div class="space-y-4">

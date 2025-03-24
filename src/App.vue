@@ -55,6 +55,10 @@ html, body {
   margin-top: -20px;
 }
 
+.breadcrumb{
+  padding: 10px 15px;
+}
+
 .chat-section {
   display: flex;
   flex: 1;

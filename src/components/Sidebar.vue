@@ -49,6 +49,11 @@
           <div class="dropdown ms-2">
             <button class="btn dropdown-toggle" type="button" id="userDropdown" data-bs-toggle="dropdown" style=" font-size: 0.9rem; margin-left: 50px;">
             </button>
+            <ul class="dropdown-menu" aria-labelledby="permissionsDropdown">
+            <li><a class="dropdown-item" href="#" >View Permissions</a></li>
+            <li><a class="dropdown-item" href="#" >Edit Permissions</a></li>
+            <li><a class="dropdown-item" href="#" >Manage Roles</a></li>
+          </ul>
           </div>
         </button>
       </li>
@@ -83,16 +88,19 @@ export default {
 </script>
 
 <style>
-  
+  .sidebar {
+    margin-left: -19px;
+  }
   .logo {
-    height: 60px; 
+    height: 90px; 
     margin-left: 15px;
     margin-top: -5px;
   }
   
   .app-title {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
     color: #333;
+    font-weight: bold;
   }
 </style>
